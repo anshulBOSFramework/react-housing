@@ -1,0 +1,42 @@
+.inputField {
+	background-color: #f9feff;
+	border-radius: 20px !important;
+	margin: 10px 0px;
+}
+.inputField fieldset {
+	border-color: transparent !important;
+	box-shadow: 2px 2px 6px -1px rgb(0 0 0 / 31%);
+}
+.inputField:hover fieldset {
+	border-color: #1976d2 !important;
+}
+.inputTextStyle {
+	color: #bcdaf4;
+}
+.btnContainer {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.registerBtn {
+	color: #1976d2 !important;
+	background-color: #fff !important;
+	font-size: 0.8rem !important;
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	padding: 7px 40px !important;
+	border-radius: 20px !important;
+}
+.registerBtn:hover,
+.loginBtn:hover {
+	box-shadow: 2px 2px 6px -1px rgb(0 0 0 / 31%) !important;
+}
+.loginBtn {
+	color: #fff !important;
+	background-color: #2990f7 !important;
+	font-size: 0.8rem !important;
+	margin: 0px 5px !important;
+	padding: 7px 40px !important;
+	border-radius: 20px !important;
+	box-shadow: none !important;
+}
